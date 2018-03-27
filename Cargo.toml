@@ -47,7 +47,7 @@ mio = "0.6.14"
 futures = "0.1.19"
 
 # Futures 0.2 integration
-futures2 = { version = "0.1.0", path = "futures2", optional = true }
+futures2 = { git = "https://github.com/dnorman/tokio", path = "futures2", optional = true }
 
 [dev-dependencies]
 bytes = "0.4"
